@@ -25,3 +25,4 @@ foundry.lock
 # Docs and misc
 # ======================================
 docs/
+.github/

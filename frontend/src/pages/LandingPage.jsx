@@ -10,7 +10,7 @@ import { decodeEventLog } from "viem";
 import axios from "axios";
 import { Rocket, Search, CheckCircle, X, Target, Gem, Link2, BookOpen, Sparkles, Zap, Link as LinkIcon, Check, Clock, FileText, Newspaper, Key, User, Calendar, Globe, ExternalLink, HourglassIcon, Loader, CheckCircle2, Save } from "lucide-react";
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://zerolag.onrender.com/api';
 
 export default function LandingPage() {
   const [url, setUrl] = useState('');
@@ -208,10 +208,10 @@ export default function LandingPage() {
           {/* Hero Section */}
           <div className="text-center mb-10">
             <h1 className="text-5xl md:text-5xl font-black mb-6 text-white uppercase tracking-wide leading-tight">
-              Decentralized News Curation
+              Decentralized Curation
             </h1>
             <p className="text-purple-400 text-xl mb-4 leading-relaxed font-bold">
-              Curate articles • Earn rewards • Build reputation on-chain
+              Curate articles and posts • Earn rewards • Build reputation on-chain
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
               <div className="bg-purple-950 border-2 border-purple-800 px-4 py-2 rounded-lg">
