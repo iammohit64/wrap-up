@@ -27,22 +27,21 @@ export const mantleSepolia = {
   testnet: true,
 };
 
-// Optional: Keep Monad here if you want to allow switching, otherwise you can remove it.
-export const monadTestnet = {
-  id: 10143,
-  name: 'Monad Testnet',
-  nativeCurrency: { name: 'Monad', symbol: 'MONAD', decimals: 18 },
-  rpcUrls: {
-    default: { http: ['https://testnet-rpc.monad.xyz/'] },
-  },
-  blockExplorers: {
-    default: { name: 'MonadScan', url: 'https://testnet-explorer.monad.xyz' },
-  },
-  testnet: true,
-};
+// export const monadTestnet = {
+//   id: 10143,
+//   name: 'Monad Testnet',
+//   nativeCurrency: { name: 'Monad', symbol: 'MONAD', decimals: 18 },
+//   rpcUrls: {
+//     default: { http: ['https://testnet-rpc.monad.xyz/'] },
+//   },
+//   blockExplorers: {
+//     default: { name: 'MonadScan', url: 'https://testnet-explorer.monad.xyz' },
+//   },
+//   testnet: true,
+// };
 
 // *** CRITICAL FIX: Add mantleSepolia to this array ***
-const chains = [mantleSepolia, monadTestnet]; 
+const chains = [mantleSepolia]; 
 
 // 3. Create wagmiConfig
 const metadata = {
