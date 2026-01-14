@@ -12,7 +12,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: 'http://localhost:5173', // Allow frontend running on Vite
+    origin: 'https://wrap-up-one.vercel.app/', // Allow frontend running on Vite
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     credentials: true, // if you're using cookies or authentication
   })
