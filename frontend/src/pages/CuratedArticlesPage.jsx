@@ -51,7 +51,7 @@ export default function CuratedArticlesPage() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
                 <h1 className="text-4xl font-bold text-white mb-2 tracking-tight">Intelligence Layer</h1>
-                <p className="text-zinc-500 max-w-xl">Curated insights from the decentralized web. Verified by community, stored on Monad.</p>
+                <p className="text-zinc-500 max-w-xl">Curated insights from the decentralized web. Verified by community, stored on Mantle.</p>
             </div>
             
             <div className="flex gap-4">

@@ -18,7 +18,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-zinc-500 text-sm leading-relaxed mb-6">
-              The decentralized curation layer for the Web3 ecosystem. Verified, transparent, and built on Monad.
+              The decentralized curation layer for the Web3 ecosystem. Verified, transparent, and built on Mantle.
             </p>
             <div className="flex gap-4">
               {[Twitter, MessageCircle, Github].map((Icon, i) => (
@@ -37,7 +37,7 @@ export default function Footer() {
           {[
             { title: "Platform", links: ["Home", "Curated Articles", "Leaderboard"] },
             { title: "Resources", links: ["Documentation", "FAQ", "Terms of Service"] },
-            { title: "Network", links: ["Monad Status", "Contract", "Governance"] }
+            { title: "Network", links: ["Mantle Status", "Contract", "Governance"] }
           ].map((column, idx) => (
             <div key={idx}>
               <h3 className="text-white font-bold mb-6 text-sm uppercase tracking-wider">{column.title}</h3>
@@ -65,7 +65,7 @@ export default function Footer() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#10b981] opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-[#10b981]"></span>
             </span>
-            <span className="text-zinc-400 text-xs font-mono">Monad Testnet: Active</span>
+            <span className="text-zinc-400 text-xs font-mono">Mantle Testnet: Active</span>
           </div>
         </div>
       </div>
