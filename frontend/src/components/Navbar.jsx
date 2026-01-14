@@ -220,7 +220,7 @@ export default function Navbar() {
               <Layers className="w-5 h-5 text-black" />
             </div>
             <span className="text-xl font-bold text-white tracking-tight">
-              LedgerLens
+              Wrap-Up
             </span>
           </Link>
           

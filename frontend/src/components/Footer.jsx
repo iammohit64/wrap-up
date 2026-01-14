@@ -14,7 +14,7 @@ export default function Footer() {
                 <Layers className="w-5 h-5 text-black" />
               </div>
               <span className="text-lg font-bold text-white tracking-tight">
-                LedgerLens
+                Wrap-Up
               </span>
             </Link>
             <p className="text-zinc-500 text-sm leading-relaxed mb-6">
@@ -58,7 +58,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-[#27272a] flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-zinc-600 text-xs font-medium uppercase tracking-wide">
-            © {new Date().getFullYear()} LedgerLens Decentralized.
+            © {new Date().getFullYear()} Wrap-Up Decentralized.
           </p>
           <div className="flex items-center gap-2 bg-[#121214] border border-[#27272a] px-3 py-1.5 rounded-full">
             <span className="relative flex h-2 w-2">
