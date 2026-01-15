@@ -341,9 +341,9 @@ wrap-up/
 
 ### Deployed Addresses (Mantle Sepolia)
 ```javascript
-MonadFeed:     0x1e9f2F91E0673E3313C68b49a2262814C7d8921e
-MFD Token:     [Your Token Address]
-MFD Claimer:   [Your Claimer Address]
+MonadFeed:     0xDE5cE50FcE21062d2a3178D6b715e4F58953C112
+MFD Token:     0x149A57B47b1b831727a5764eCaa6e61c013F20Bd
+MFD Claimer:   0x3b634Bb8AD89E9E005E7f7c0d7ECB5F156b53639
 ```
 
 ---
