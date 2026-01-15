@@ -14,11 +14,11 @@ export default function Footer() {
                 <Layers className="w-5 h-5 text-black" />
               </div>
               <span className="text-lg font-bold text-white tracking-tight">
-                LedgerLens
+                Wrap-Up
               </span>
             </Link>
             <p className="text-zinc-500 text-sm leading-relaxed mb-6">
-              The decentralized curation layer for the Web3 ecosystem. Verified, transparent, and built on Monad.
+              The decentralized curation layer for the Web3 ecosystem. Verified, transparent, and built on Mantle.
             </p>
             <div className="flex gap-4">
               {[Twitter, MessageCircle, Github].map((Icon, i) => (
@@ -37,7 +37,7 @@ export default function Footer() {
           {[
             { title: "Platform", links: ["Home", "Curated Articles", "Leaderboard"] },
             { title: "Resources", links: ["Documentation", "FAQ", "Terms of Service"] },
-            { title: "Network", links: ["Monad Status", "Contract", "Governance"] }
+            { title: "Network", links: ["Mantle Status", "Contract", "Governance"] }
           ].map((column, idx) => (
             <div key={idx}>
               <h3 className="text-white font-bold mb-6 text-sm uppercase tracking-wider">{column.title}</h3>
@@ -58,14 +58,14 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-[#27272a] flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-zinc-600 text-xs font-medium uppercase tracking-wide">
-            © {new Date().getFullYear()} LedgerLens Decentralized.
+            © {new Date().getFullYear()} Wrap-Up Decentralized.
           </p>
           <div className="flex items-center gap-2 bg-[#121214] border border-[#27272a] px-3 py-1.5 rounded-full">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#10b981] opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-[#10b981]"></span>
             </span>
-            <span className="text-zinc-400 text-xs font-mono">Monad Testnet: Active</span>
+            <span className="text-zinc-400 text-xs font-mono">Mantle Testnet: Active</span>
           </div>
         </div>
       </div>
