@@ -12,9 +12,12 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: 'https://wrap-up-one.vercel.app', // Allow frontend running on Vite
+    origin: [
+      'https://wrap-up-one.vercel.app', 
+      'https://wrap-up-arbitrum-zqup.vercel.app'
+    ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-    credentials: true, // if you're using cookies or authentication
+    credentials: true,
   })
 );
 
