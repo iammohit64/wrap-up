@@ -120,7 +120,7 @@ export default function LandingPage() {
       <main className="container mx-auto px-4 py-20 relative z-10 flex-grow flex flex-col justify-center">
         <div className="max-w-5xl mx-auto text-center mb-16">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">
-                Decentralize <span className="text-[#10b981]">Truth.</span>
+                Wrap-Up any <span className="text-[#10b981]">Article.</span>
             </h1>
             <p className="text-zinc-500 text-xl max-w-2xl mx-auto leading-relaxed">
                 The curation layer for the verifiable web. Scrape, analyze, and mint articles to the Mantle blockchain.
